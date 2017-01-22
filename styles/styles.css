@@ -1,0 +1,61 @@
+#bg{
+	background-image: url('../img/IMG_3373-2.jpg') ; 
+/*    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: cover;	
+    color: white;
+    height: 100vh;	
+}
+
+nav {
+	padding-top: 3%;
+	background-color: transparent;
+}
+nav a {
+	color: white;
+	font-size: 1.4em;
+}
+.jumbotron{
+	padding-top: 15%;
+	background-color: transparent;
+    
+}
+h1#name{
+	font-size: 8em;
+}
+
+#bio{
+	height: 100vh;
+	color: black;
+}
+.bio{
+	background-color: #ffacac;
+}
+
+#bio, #portfolio, #contact{
+	display: none;
+	padding-top: 356px;
+}
+@media only screen 
+  and (max-device-width: 414px) 
+  and (orientation: portrait) { 
+  	#bg{
+  		height:40vh;
+  	}
+  	nav a{
+  		font-size: 3.4em;
+  	}
+
+  	h1#name{
+  		font-size: 10em;
+  	}
+}
+@media only screen 
+  and (max-device-width: 736px) 
+  and (orientation: landscape) { 
+  	nav a{
+  		font-size: 2em;
+  	}  	
+
+}
