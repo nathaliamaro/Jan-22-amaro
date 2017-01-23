@@ -23,8 +23,8 @@ nav a.active {
 .jumbotron{
 	padding-top: 15%;
 	background-color: transparent;
-    
 }
+
 #portfolio-bg .jumbotron{
 	padding-top: 10%;
 	padding-bottom: 10%;
@@ -144,10 +144,51 @@ h1#name{
 
 }
 .honeywords{
-	height: 90vh;
-	background-image: url('../img/website.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
+	height: 60vh;
+	background-color: #fbc21b;
+}
+.miamiblogs{
+	height: 60vh;
+	background-color: #aae5f6;	
+}
+.Boxandfire{
+	height: 60vh;
+	background-color: #f2d1f0;	
+}
+.Aloft{
+	height: 60vh;
+	background-color: #ffc9da;		
+}
+.Starwood{
+	height: 60vh;
+	background-color: #e094ff;		
+}
+
+.Yaiza{
+	height: 60vh;
+	background-color: #eacec6;		
+}
+.Careerscore{
+	height: 60vh;
+	background-color: #c3f0ed;		
+}
+.honeywords .jumbotron, 
+.miamiblogs .jumbotron, 
+.Boxandfire .jumbotron, 
+.Aloft .jumbotron, 
+.Starwood .jumbotron, 
+.Yaiza .jumbotron , 
+.Careerscore .jumbotron{
+	padding-top: 4%;
+}
+
+.honeywords h1#name, .miamiblogs h1#name, .Boxandfire h1#name, .Starwood h1#name, .Yaiza h1#name, .Careerscore h1#name{
+	color: black;
+}
+
+.thumbnail img{
+	width: 100%;
+	min-height: 408px ;
 }
 
 @media only screen 
