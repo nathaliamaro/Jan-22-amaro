@@ -13,7 +13,7 @@ nav {
 	padding-bottom: 3%;	
 	background-color: transparent;
 }
-nav a {
+nav a, nav a:hover {
 	color: white;
 	font-size: 1.4em;
 }
@@ -41,6 +41,13 @@ h1#name{
 }
 .bio{
 	background-color: #ffacac;
+}
+.description{
+	background-color:#953d62;
+	padding-top: 8%;
+	font-size:1.2em;
+	color: white;
+	height: 70vh;
 }
 #portfolio-bg{
 	background-image: url('../img/campana-flowers.jpg');
@@ -172,17 +179,26 @@ h1#name{
 	height: 60vh;
 	background-color: #c3f0ed;		
 }
+
+.Dior{
+	height: 60vh;
+	background-color: #f8eff6;		
+}
 .honeywords .jumbotron, 
 .miamiblogs .jumbotron, 
 .Boxandfire .jumbotron, 
 .Aloft .jumbotron, 
 .Starwood .jumbotron, 
 .Yaiza .jumbotron , 
-.Careerscore .jumbotron{
+.Careerscore .jumbotron,
+.Dior .jumbotron{
 	padding-top: 4%;
 }
 
-.honeywords h1#name, .miamiblogs h1#name, .Boxandfire h1#name, .Starwood h1#name, .Yaiza h1#name, .Careerscore h1#name{
+.honeywords h1#name, .miamiblogs h1#name,
+.Boxandfire h1#name, .Starwood h1#name,
+.Yaiza h1#name, .Careerscore h1#name,
+.Dior h1#name, .Aloft h1#name {
 	color: black;
 }
 
